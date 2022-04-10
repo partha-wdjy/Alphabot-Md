@@ -18,19 +18,19 @@ global.autoketik = false //status auto mengetik (auto typing)
 global.available = false //status online (online)
 
 // Other
-global.botname = "Alphabot-Mdོ" //namabot
-global.ownername= "ᴹᴿ᭄ ZeeoneOfcོ ×፝֟͜×" //nama owner
+global.botname = "p-art" //namabot
+global.ownername= "Partha" //nama owner
 global.myweb ="https://api-alphabot.herokuapp.com/"
 global.youtube = "https://youtube.com/c/ZeeoneOfc"
 global.github = "https://zeeoneofc.github.io/"
-global.ownernomer = "62887435047326" //nomor owner
-global.ownernomerr = "+62887435047326" // nmr owner
+global.ownernomer = "6285692261162" //nomor owner
+global.ownernomerr = "+6285692261162" // nmr owner
 global.thumbnail = "./image/lol_1.jpg" //foto bot ubah di folder image
 global.donasi = "./image/donasi.jpg"
 global.background_welcome="https://telegra.ph/file/90a931648de597820bc08.jpg" // maks size 30kb, agar welcome image nya tdk delay
-global.owner = ["62887435047326","62887435047326","6285342106390"] //ganti agar fitur owner bisa di gunakan
-global.packname = '© Alphabot-Mdོ' //sticker wm
-global.author = 'Di Buat Oleh ZeeoneOfc' //sticker wm
+global.owner = ["6285692261162"]//ganti agar fitur owner bisa di gunakan
+global.packname = 'JANGAN DI COLONG' //sticker wm
+global.author = 'punya PARTHA' //sticker wm
 global.sessionName = 'session'
 global.flaming = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
 global.fluming = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=fluffy-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
@@ -40,7 +40,7 @@ global.flasmurf = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutp
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
 global.mess = {
-    sukses: '🤗Done, Oke Desu~',
+    sukses: 'Sampun MAASSSZZEEH~',
     admin: 'Perintah Ini Hanya Bisa Digunakan Oleh Admin !',
     botAdmin: 'Perintah Ini Hanya Bisa Digunakan Ketika Bot Menjadi Admin !',
     owner: 'Perintah Ini Hanya Bisa Digunakan Oleh Owner !',
