@@ -5,7 +5,7 @@ exports.wait = () => {
     return `⏳ Mohon tunggu sebentar~`
 }
 exports.ok = () => {
-    return `✅ Done. Ok desu~`
+    return `✅ Done. Sampun Masszzeeh~`
 }
 
 exports.err = () => {
@@ -68,7 +68,7 @@ exports.adminAlready = () => {
 }
 
 exports.botNotAdmin = () => {
-    return `Jadikan bot sebagai admin terlebih dahulu! 🙏`
+    return `Bot bukan Admins`
 }
 
 exports.received = (pushname) => {
@@ -94,7 +94,7 @@ lapor owner agar segera di perbaiki 🙏
 exports.listMenu = (time, salam, pushname, prefix) => {
     return `*Selamat ${salam} ${pushname}*
 *⌚Time Server : ${time}*
-*📚 List-Menu Alphabot-Md :*
+*📚 List-Menu P-artBot :*
 
 ╭─❒ 「 Bot Info 」 
 ├ ${prefix}owner
@@ -833,16 +833,16 @@ Arigatou Gozaimasu! Untuk kalian user ramah dan Beberapa orang yg ikut membantu 
 `
 }
 exports.welcome = () =>{
-	return`𝖩𝖺𝗇𝗀𝖺𝗇 𝗅𝗎𝗉𝖺 𝗂𝗇𝗍𝗋𝗈 𝗄𝖺𝗄 🤗
+	return`𝖩𝖺𝗇𝗀𝖺𝗇 𝗅𝗎𝗉𝖺 𝗂𝗇𝗍𝗋𝗈 𝗄𝖺𝗄 🤗~`
 	
-╭ 𝖭𝖺𝗆𝖺 :
-├ 𝖴𝗆𝗎𝗋 :
-├ 𝖦𝖾𝗇𝖽𝖾𝗋 :
-├ 𝖠𝗌𝗄𝗈𝗍 :
-╰❒ 𝖯𝖺𝗍𝗎𝗁𝗂 𝗋𝗎𝗅𝖾𝗌 𝗀𝗋𝗎𝗉 𝗒𝖺 𝗄𝖺k ~`
+
+
+
+
+
 }
 exports.leave = () =>{
-	return`Yah kok out 😣 Mental aman kan kak >.<
+	return`
 Goodbye`
 }
 exports.source = () =>{
