@@ -20,8 +20,8 @@ global.available = false //status online (online)
 // Other
 global.botname = "P-artBOT" //namabot kalian
 global.ownername= "Partha wdjy" //nama kalian
-global.myweb ="https://bit.ly/partha-wdjy" //bebas asal jan hapus
-global.youtube = "https://bit.ly/wa-parthaWDJY" //bebas asal jan hapus
+global.myweb ="https://bit.ly/Waku-ParthaWDJY" //bebas asal jan hapus
+global.youtube = "https://bit.ly/partha-wdjy" //bebas asal jan hapus
 global.github = "https://zeeone-ofc.github.io/" //bebas
 global.email = "parthawdjy@gmail.com" //bebas
 global.region = "Republic Jomblo" //bebas
