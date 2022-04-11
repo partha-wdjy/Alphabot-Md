@@ -3,18 +3,19 @@
 	@ Sc no enc silahkan cek https://github.com/DikaArdnt/alpha-Morou
  
 	 「 TqTo 」
-	@ Gusti allah SWT
-	@ Nabi Muhammad Saw
-	@ Malaikat Jibril
-	@ Bapak yang bikin gua
-	@ Emak yang laihirin gua
-	@ Roam Toxic
-	@ Bot jarrot jr
-	@ Owner Rizzbott
-	@ Mata gua yang kuat begadang
-	@ Charger
-	@ Quota internet
+	@ My God
+	@ My Parents
+	@ Fatih A.
+	@ Ferdi
+	@ DikaArdnt [author]
+	@ Mhankbarbar
+	@ Nurutomo
+	@ Rashid
+	@ ZeeoneOfc
+	@ Penyedia Module
+	@ And All Support
 **/
+
 
 require('./settings')
 const { default: makeWASocket, BufferJSON, WAMessageStubType, WA_DEFAULT_EPHEMERAL, generateWAMessageFromContent, downloadContentFromMessage, downloadHistory, proto, getMessage, generateWAMessageContent, prepareWAMessageMedia , generateWAMessage, areJidsSameUser, makeInMemoryStore} = require('@adiwajshing/baileys-md')
@@ -792,7 +793,11 @@ Lihat list Pesan Dengan ${prefix}listmsg`)
 				})
             }
             break
-            case 'tes': case 'runtime':
+             case 'tes': {
+                m.reply('On Maszehh')
+            }
+            break
+            case 'run': case 'runtime':
             reply(`Runtime : ${runtime(process.uptime())}`)
             break
             case 'public': {
@@ -958,7 +963,7 @@ break
             alpha.sendMessage(m.chat, {document: audio, mimetype: 'audio/mpeg', fileName: `Convert By ${alpha.user.name}.mp3`}, { quoted : m })
             }
             break
-            case 'marikitacoba': case 'toptt': {
+            case 'dicoba': case 'toptt': {
             if (!/video/.test(mime) && !/audio/.test(mime)) throw `Reply Video/Audio Yang Ingin Dijadikan VN Dengan Caption ${prefix + command}`
             if (!quoted) throw `Reply Video/Audio Yang Ingin Dijadikan VN Dengan Caption ${prefix + command}`
             m.reply(mess.wait)
