@@ -793,8 +793,13 @@ Lihat list Pesan Dengan ${prefix}listmsg`)
 				})
             }
             break
-            case 'tes': case 'runtime':
-            reply(`Runtime : ${runtime(process.uptime())}`)
+             case 'P': {
+                m.reply('On Kak')
+            }
+	
+            break case 'run': case 'runtime':
+            reply(`Runtime : ${runtime(process.uptime())}`)		
+			
             break
             case 'public': {
                 if (!m.key.fromMe && !isCreator) return reply(lang.ownerOnly())
