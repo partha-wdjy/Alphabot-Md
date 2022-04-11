@@ -843,7 +843,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             var but = [
 				{
 					"urlButton": {
-						"displayText": "Website",
+						"displayText": "Wa Me",
 						"url": `${myweb}`
 						}
 					}
@@ -856,13 +856,13 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             var but = [
           {
             "urlButton": {
-              "displayText": "YouTube Creator",
+              "displayText": "IG Owner",
               "url": `${youtube}`
             }
           },
           {
             "urlButton": {
-              "displayText": "Rest Api's",              
+              "displayText": "Wa Me",              
               "url": `${myweb}`
 
             }
@@ -1289,7 +1289,7 @@ break
             case 'out':
                 if (!m.isGroup) return reply(lang.groupOnly())
                 if (!m.key.fromMe && !isCreator) return reply(lang.ownerOnly())
-               reply('Sayonara~ 👋').then(async res => await alpha.groupLeave(from))
+               reply('Bot izin keluar Assalamualaikum~ 🙏 ').then(async res => await alpha.groupLeave(from))
             break
             case 'group': case 'grup':
                 if (!m.isGroup) return reply(lang.groupOnly())
