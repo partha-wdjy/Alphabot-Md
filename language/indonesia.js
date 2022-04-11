@@ -843,7 +843,7 @@ exports.welcome = () =>{
 }
 exports.leave = () =>{
 	return`
-Goodbye`
+`
 }
 exports.source = () =>{
 return`*------「 SOURCE CODE 」 ------*
