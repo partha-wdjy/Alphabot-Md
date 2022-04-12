@@ -792,9 +792,9 @@ Lihat list Pesan Dengan ${prefix}listmsg`)
                 alpha.send5ButLoc(m.chat, `_${result.quotes}_\n\nBy *'${result.karakter}'*, ${result.anime}\n\n*_- ${result.up_at}_*` , '©' + ownername, gam, [{"quickReplyButton": {"displayText": "Next Quotes","id": 'quotesanime'}}], {quoted:m})
 				})
             }
-
-
-
+}
+}
+}
             }	
             break
              case 'tes': case 'p' : {
@@ -943,22 +943,9 @@ reply(`Kirim/Reply Gambar/Video Dengan Caption ${prefix + command}\n\nDurasi Sti
                 throw `Kirim Gambar/Video Dengan Caption ${prefix + command}\nDurasi Video 1-9 Detik`
                 }
             }
-            break
-            case 'ebinary': {
-            let { eBinary } = require('./lib/binary')
-            let teks = text ? text : m.quoted && m.quoted.text ? m.quoted.text : m.text
-            let eb = await eBinary(teks)
-            m.reply(eb)
         }
         break
-            case 'dbinary': {
-            let { dBinary } = require('./lib/binary')
-            let teks = text ? text : m.quoted && m.quoted.text ? m.quoted.text : m.text
-            let db = await dBinary(teks)
-            m.reply(db)
-        }
-        break
-            case 'emojimix': {
+            case 'emix': {
 	        if (!text) throw `Example : ${prefix + command} 😎+😇`
 		let [emoji1, emoji2] = text.split`+`
 		let anu = await fetchJson(`https://tenor.googleapis.com/v2/featured?key=AIzaSyAyimkuYQYF_FXVALexPuGQctUWRURdCYQ&contentfilter=high&media_filter=png_transparent&component=proactive&collection=emoji_kitchen_v5&q=${encodeURIComponent(emoji1)}_${encodeURIComponent(emoji2)}`)
