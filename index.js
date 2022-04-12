@@ -2107,6 +2107,43 @@ break
                 if (anu.status == false) return m.reply(anu.message)
                 alpha.sendText(m.chat, `⭔ *Hasil :* ${anu.message.result}\n⭔ *Catatan :* ${anu.message.catatan}`, m)
             }
+		            break
+case 'sewa': case 'sewabot': {
+                anu = `┏━━━━━━━━━━━━━━⬣
+┃        〔 SEWA BOT  〕
+┃ 
+┃▰▰▰▰▰▰▰▰▰▰▰▰▰▰
+┃   ⬣ SEWA + PREM ⬣
+┃⬡ 1 MINGGU : Bukan Bo 
+┃⬡ 1 BULAN : Bukan Bo
+┃⬡ PERMANEN : Nikah Aja 
+┃▰▰▰▰▰▰▰▰▰▰▰▰▰▰
+┃       〔 KELEBIHAN BOT 〕
+┃▰▰▰▰▰▰▰▰▰▰▰▰▰▰
+┃⬡ ON 24 JAM
+┃⬡ RUN DI RDP
+┃⬡ ANTI DELAY 
+┃⬡ ANTILINK
+┃⬡ WELCOME IMAGE
+┃⬡ LEFT
+┃▰▰▰▰▰▰▰▰▰▰▰▰▰▰
+┃           ⬣〔  SISTEM 〕⬣
+┃⬡ KENAL - PDKT - NIKAH
+┃▰▰▰▰▰▰▰▰▰▰▰▰▰▰
+┃⬣━ *PAYMENT* :
+┃ GOPAY
+┃ DANA
+┃▰▰▰▰▰▰▰▰▰▰▰▰▰▰
+
+_Bukan Bot_ *_Wibusoft_*👍🏻`
+                let button = [{
+                                quickReplyButton: {
+                                    displayText: 'Chat Owner Disini',
+                                    id: 'owner'
+                                }
+                            }]
+                alpha.send5ButImg(m.chat, anu, alpha.user.name, global.thumb, button)
+            }	
             break 
  default:
 if (budy.startsWith('=>')) {
