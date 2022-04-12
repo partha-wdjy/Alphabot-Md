@@ -2,7 +2,7 @@ exports.private = () =>{
 	return`Fitur hanya bisa di gunakan di private chat`
 	}
 exports.wait = () => {
-    return `⏳ Mohon tunggu sebentar~`
+    return `Sabar Masszeh~`
 }
 exports.ok = () => {
     return `✅ Sampun Masszzeeh~`
